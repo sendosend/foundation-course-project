@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap');
+
+
+html {
+    scroll-behavior: smooth;
+
+}
+    
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #000000;
+    color: white;
+    font-family: 'Bebas Neue', sans-serif ;
+}
+
+
+p, .shop p {
+    font-family: 'Inter', sans-serif; /* Change to a font that supports lowercase */
+    text-transform: none;
+}
+
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+    background: white;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px 30px;  
+    margin: 0;  
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    transition: transform 0.3s ease-in-out;
+    opacity: 0.9;
+}
+
+.logo:hover {
+    transform: scale(1.05);
+}
+
+.link {
+    display: flex;
+    align-items: flex-start;
+    padding: 16px;
+}
+
+.link a {
+    font-size: 1.5rem;
+}
+
+.link ul {
+    display: flex;
+    gap: 30px;
+    padding: 0;
+    list-style: none;
+
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding: 60px;
+}
+
+
+.text {
+    margin-top: 10px;
+    font-size: 40px;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+
+.content-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+}
+
+.login {
+    background: red;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 24px;
+    width: fit-content;
+    opacity: 0.8;
+    transition: all 0.3s ease-in-out;
+}
+
+.login:hover {
+    background: darkred;
+    transform: scale(1.05);
+}
+
+.title img{
+    width: 550px;
+    max-width: 1000px;
+    height: auto;
+    display: block;
+    padding: 20px 30px;
+}
+
+.logo img {
+    width: 125px;
+}
+
+.article {
+    padding: 40px;
+}
+
+.shop-gallery {
+    display: flex;
+    justify-content: center;
+    font-size: 34px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.shop ul {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    list-style: none;
+    padding: 0;
+}
+
+.shop li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-width: 500px;
+}
+
+.shop img {
+    width: 300px;
+    max-width: 500px;
+    height: auto;
+    display: block;
+    transition: transform 0.3s ease-in-out;
+    opacity: 0.9;
+}
+
+.shop img:hover {
+    opacity: 1;
+    transform: scale(1.05);
+}
+
+.shop p {
+    margin: 5px 0;
+    font-size: 1rem;
+}
+
+.footer {
+    background: #111;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 50px;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.supreme-message {
+    font-size: 20px;
+    font-weight: bold;
+    opacity: 0.8;
+}
+
+.social-links a {
+    color: white;
+    opacity: 0.7;
+    transition: opacity 0.3s ease-in-out;
+}
+.social-links a:hover {
+    opacity: 1;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    opacity: 0.8;
+}
+
+a:hover {
+    opacity: 1;
+    font-weight: bold;
+}
+
+.copyright {
+    font-size: 14px;
+    opacity: 0.6;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 16px;
+}
